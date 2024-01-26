@@ -9,6 +9,7 @@ GPS Speedometer project repository: This open-source project aims to provide a c
 ### Hardware used:
 <ol>
  <li>ublox NEO-6M</li>
+ <li><a href="">GPS antenna (for better performance)</a></li>
  <li>BNO085 9DoF (accelerometer, gyroscope, magnetometer)</li>
  <li>NodeMCU v1.0</li>
  <li>1.5 inch OLED display by Waveshare [SSD1327]</li>
