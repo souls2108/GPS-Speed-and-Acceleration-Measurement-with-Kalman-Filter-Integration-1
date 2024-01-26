@@ -4,7 +4,15 @@
 
 ### Description:
 
-Welcome to the GPS Speedometer project repository! This open-source project aims to provide a comprehensive GPS-based system for accurately measuring speed and acceleration, applying Kalman filtering techniques for enhanced precision. The system further includes a user-friendly OLED display for real-time speed visualization and a web interface for remote monitoring.
+GPS Speedometer project repository: This open-source project aims to provide a comprehensive GPS-based system for accurately measuring speed and acceleration, applying Kalman filtering techniques for enhanced precision. The system further includes a 1.5 inch OLED display for real-time speed visualization and a web interface for remote monitoring.<b>This project was implemented to measure vehicle telemetry for Team Firebolt Racing in mBAJA 2024 (SAEINDIA).</b>
+
+### Hardware used:
+<ol>
+ <li>ublox NEO-6M</li>
+ <li>BNO085 9DoF (accelerometer, gyroscope, magnetometer)</li>
+ <li>NodeMCU v1.0</li>
+ <li>1.5 inch OLED display by Waveshare [SSD1327]</li>
+</ol>
 
 ## Features:
 ## 1. GPS-Based Speed and Acceleration Measurement
