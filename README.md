@@ -36,7 +36,55 @@ For remote monitoring and data visualization, the system features a web interfac
 5. Upload the provided code to your microcontroller.
 6. Access the web interface to monitor real-time speed remotely.
 
+### Port Map
+<ul>
+  <li>OLED SCREEN</li>
+   <ol>
+    <li>VCC -> 3V</li>
+    <li>GND -> GND</li>
+    <li>DIN -> D7</li>
+    <li>CLK -> D5</li>
+    <li>CS -> D8</li>
+    <li>DC -> D0</li>
+    <li>RST -> D3</li>
+   </ol>
+
+  <li>BNO085</li>
+   <ol>
+    <li>VIN -> 3V</li>
+    <li>GND -> GND</li>
+    <li>SCL -> D1</li>
+    <li>SDA -> D2</li>
+    <li>P0 -> GND</li>
+    <li>P1 -> GND</li>
+   </ol>
+
+   <li>GPS</li>
+   <ol>
+    <li>VCC -> 3V</li>
+    <li>GND -> GND</li>
+    <li>RX -> D4</li>
+    <li>TX -> D6</li>
+   </ol>
+</ul>
+
 ## Contribution Guidelines:
-We welcome contributions from the community to enhance and expand the capabilities of this GPS speedometer system. Feel free to submit bug reports, feature requests, or pull requests to help improve the project.
+Welcome for contributions to enhance and expand the capabilities of this GPS speedometer system. Feel free to submit bug reports, feature requests, or pull requests to help improve the project.
 
 Thank you for choosing our GPS Speedometer project. We hope it proves to be a valuable tool for your speed measurement and monitoring needs!
+
+## References
+<ul>
+ <li>
+  <a href = "https://youtu.be/TwhCX0c8Xe0?si=p0fIQ2RGdnS_CM2-">GPS Configuration Reference</a>
+ </li>
+ <li>
+  <a href="https://github.com/olikraus/u8g2.git">Library for OLED display</a>
+ </li>
+ <li>
+  <a href = "https://github.com/adafruit/Adafruit_BNO08x.git">Library for BNO085</a>
+ </li>
+ <li>
+  <a href="https://youtu.be/6M6wSLD-8M8?si=LIJLbGDBOQZDQuQw">Kalman Filter Basics</a>
+ </li>
+</ul>
