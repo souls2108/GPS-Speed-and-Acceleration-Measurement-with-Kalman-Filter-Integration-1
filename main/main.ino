@@ -4,7 +4,7 @@
 #include <quaternion_type.h>
 // #include <Wire.h>
 // #include  <SPI.h>
-#include <SoftwareSerial.h>
+// #include <SoftwareSerial.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <WebSocketsServer.h>

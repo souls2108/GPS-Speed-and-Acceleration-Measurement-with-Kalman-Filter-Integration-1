@@ -87,4 +87,7 @@ Thank you for choosing our GPS Speedometer project. We hope it proves to be a va
  <li>
   <a href="https://youtu.be/6M6wSLD-8M8?si=LIJLbGDBOQZDQuQw">Kalman Filter Basics</a>
  </li>
+ <li>
+  <a href="https://github.com/morrissinger/ESP8266-Websocket.git">ESP8266 Web Sockets</a>
+ </li>
 </ul>
